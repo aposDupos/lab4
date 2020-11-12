@@ -233,3 +233,115 @@ nav div {
 .regimg img {
   width: 80%;
 }
+
+/* Footer */
+.footImg {
+  width: 100%;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+.foot {
+  position: absolute;
+  margin: 10% 10% 0;
+  padding-left: 1em;
+  color: #f1f5f4;
+  width: 80%;
+}
+
+.footUl {
+  padding: 0 2em;
+  width: 100%;
+}
+
+.footUlLi {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 500;
+  margin: 0 2em;
+}
+
+.footUlLi a {
+  text-decoration: none;
+  color: #f1f5f4;
+}
+
+#Logo1 {
+  vertical-align: top;
+}
+
+.ful {
+  padding: 0;
+  list-style: none;
+}
+
+.ful li {
+  padding-top: .5em;
+}
+
+.subscribe, .foota, .iconF {
+  padding-top: .5em;
+}
+
+.foota {
+  padding: .1em;
+  margin-top: 2em;
+  border: solid #f1f5f4;
+  border-radius: 50px;
+  background: #f1f5f4;
+  width: 85%;
+}
+
+#subText {
+  height: 100%;
+  width: 50%;
+  padding-left: 1em;
+  border: .1em solid #f1f5f4;
+  border-radius: 50px;
+  background: #f1f5f4;
+}
+
+#subText:focus {
+  outline: none;
+}
+
+#subButton {
+  margin: 0 0 0 .5em;
+  padding: .5em 1em;
+  border: #ed1c24;
+  border-radius: 50px;
+  background: #ed1c24;
+  color: #f1f5f4;
+}
+
+.fulBold, .subscribe {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.iconF {
+  padding: 0;
+}
+
+.iconF li {
+  display: inline-block;
+  padding: 1em .5em;
+}
+
+.iconF img {
+  width: 1.5em;
+}
+
+hr {
+  margin: 2em 10% 0;
+  padding: 0;
+  border: .5px solid #ed1c24;
+  background: #ed1c24;
+}
+
+#pFoot {
+  padding: 1.5em;
+  text-align: center;
+}
