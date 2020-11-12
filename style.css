@@ -1,0 +1,82 @@
+*{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.headerBg{
+  width: 100%;
+}
+
+.head{
+  position: absolute;
+  margin: 0 10%;
+  padding-top: 2em;
+  color: #f1f5f4;
+}
+
+.head a{
+  color: #f1f5f4;
+}
+
+.logo{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.right{
+  float: right;
+  display: inline-block;
+}
+
+.nav, .round{
+  display: inline-block;
+}
+
+
+nav div{
+  display: inline-block;
+  padding: .5em .5em;
+}
+
+.roundDiv{
+  margin-left: 1em;
+  padding: .5em 2em;
+  display: inline-block;
+  border-radius: 50px;
+  border: 2px solid #f1f5f4;
+}
+.rrr{
+  overflow: hidden;
+  margin-top: 2.5%;
+  text-align: center;
+}
+
+.headText{
+  width: 40%;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  margin: 10% 0;
+}
+.headText h1{
+  margin: 0 0 .5em 0;
+}
+.headText p{
+  margin: 2em 0 0 0;
+}
+
+.headPic{
+  margin-top: 2em;
+  width: 60%;
+  display: inline-block;
+  float: right;
+}
+
+.headPic img{
+  width: 100%;
+}
