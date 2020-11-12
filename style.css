@@ -1,82 +1,119 @@
-*{
+* {
   text-decoration: none;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
 
-.headerBg{
+/* Header */
+.headerBg {
   width: 100%;
 }
 
-.head{
+.head {
   position: absolute;
   margin: 0 10%;
   padding-top: 2em;
   color: #f1f5f4;
 }
 
-.head a{
+.head a {
   color: #f1f5f4;
 }
 
-.logo{
+.logo {
   display: inline-block;
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
   font-weight: bold;
 }
 
-.right{
+.right {
   float: right;
   display: inline-block;
 }
 
-.nav, .round{
+.nav, .round {
   display: inline-block;
 }
 
-
-nav div{
+nav div {
   display: inline-block;
   padding: .5em .5em;
 }
 
-.roundDiv{
+.roundDiv {
   margin-left: 1em;
   padding: .5em 2em;
   display: inline-block;
   border-radius: 50px;
   border: 2px solid #f1f5f4;
 }
-.rrr{
+
+.rrr {
   overflow: hidden;
   margin-top: 2.5%;
   text-align: center;
 }
 
-.headText{
+.headText {
   width: 40%;
   text-align: center;
   float: left;
   display: inline-block;
   margin: 10% 0;
 }
-.headText h1{
+
+.headText h1 {
   margin: 0 0 .5em 0;
 }
-.headText p{
+
+.headText p {
   margin: 2em 0 0 0;
 }
 
-.headPic{
+.headPic {
   margin-top: 2em;
   width: 60%;
   display: inline-block;
   float: right;
 }
 
-.headPic img{
+.headPic img {
   width: 100%;
+}
+
+/* Services */
+.services {
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.services h1, p {
+  margin: 0 10%;
+}
+
+.services h1 {
+  margin-bottom: .5em;
+}
+
+.servicesUl {
+  padding: 0;
+  width: 100%;
+}
+
+.servicesUl li {
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  width: 20%;
+  margin: 2em 2em 0;
+}
+
+.servicesUl li img {
+  width: 80%;
 }
