@@ -174,22 +174,62 @@ nav div {
 }
 
 /* Benefits */
-
-.benefits{
+.benefits {
   padding: 0;
   width: 100%;
 }
-.benefits li{
+
+.benefits li {
   display: inline-block;
   text-align: center;
   /*font-weight: 500;*/
   width: 20%;
   margin: 2em 2em 0;
 }
-.benefits li h1{
+
+.benefits li h1 {
   font-size: 1.5em;
 }
-.benefits li img{
+
+.benefits li img {
   width: 80%;
   height: 100%;
+}
+
+/* Register */
+.register {
+  margin: 10% 10% 0;
+  text-align: center;
+  color: #333333;
+}
+
+.regLeft {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+.regLeft h1 {
+  padding: 0 10%;
+}
+
+.rega {
+  border-radius: 50px;
+  border: 2px solid #333333;
+  padding: .5em 4em;
+}
+
+.regaa {
+  margin-top: 15%;
+}
+
+.regimg {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.regimg img {
+  width: 80%;
 }
