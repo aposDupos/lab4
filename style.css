@@ -117,3 +117,58 @@ nav div {
 .servicesUl li img {
   width: 80%;
 }
+
+/* How does it works */
+.hdiwAll {
+  background: #e75b4c;
+}
+
+.hdiw {
+  color: #f1f5f4;
+  margin: 0 10%;
+}
+
+.hdiwLeft {
+  display: inline-block;
+  width: 50%;
+}
+
+.hdiwLeft p {
+  margin: 0;
+  padding: 0 10% 2em;
+  text-align: center;
+}
+
+.hdiwLeft h1 {
+  margin: 2em 0 .5em 0;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.google {
+  width: 80%;
+  padding-bottom: 3em;
+}
+
+.hdiwUl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hdiwUl li {
+  background: url("sc/scooterIcon.png") no-repeat left center;
+  background-size: 10%;
+  padding: 5% 10%;
+}
+
+.hdiwUl li img, .hdiwUl li div {
+  display: inline-block;
+}
+
+.hdiwImg {
+  float: right;
+  height: 100%;
+  width: 50%;
+  padding: 5% 0;
+}
